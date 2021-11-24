@@ -31,7 +31,7 @@ namespace BusBoard
                     .ToList();
                 foreach (var arrivalPrediction in arrivalsAtStop)
                 {
-                    Console.WriteLine($"Bus {arrivalPrediction.LineName} arriving at {arrivalPrediction.ExpectedArrival.ToShortTimeString()}");
+                    Console.WriteLine($"Bus {arrivalPrediction.LineName} arriving at {arrivalPrediction.ExpectedArrival.ToShortTimeString()} heading towards {arrivalPrediction.DestinationName}");
                 }
  
                 Console.WriteLine();

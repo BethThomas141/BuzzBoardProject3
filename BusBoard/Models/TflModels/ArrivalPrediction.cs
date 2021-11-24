@@ -6,5 +6,7 @@ namespace BusBoard.Models.TflModels
     {
         public string LineName { get; set; }
         public DateTime ExpectedArrival { get; set; }
+        public string DestinationName { get; set; }
+        
     }
 }
